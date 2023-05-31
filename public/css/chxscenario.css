@@ -1,0 +1,29 @@
+a.leBouton {
+    margin: 20%;    
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #181b3c; 
+    color: white;
+    border: 1px solid gray;
+    border-style:inset;
+    }
+
+a.leBouton2
+{
+border-radius: 12px;
+border: 2px solid #46a28d;
+}
+
+a.leBouton:hover {
+background-color: #17a589;
+color:white;
+}
+
+#liste{
+    background-color: white;
+    border: 1px solid #181b3c;
+    border-radius: 10px;
+    font-size: large;
+    padding: 1.5em;
+    margin-bottom: 1.1em;
+    }

@@ -1,0 +1,134 @@
+body{
+background-color: #ffffff;
+}
+
+.inter1 {
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    box-sizing : border-box;
+    border-radius: 20px;
+    background-color: #181b3c;
+    padding:20px;
+    width: 100%;
+    max-width: 440px;
+    margin:0 auto;
+    }
+
+.port{
+padding: 1.2em;
+display: flex;
+flex-flow: column wrap;
+border: 1.5px dotted white;
+}
+
+input[type=text], textarea, input[type=email] {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+margin-right: 0px;
+margin-left: 0px;
+resize: vertical;
+}
+
+label{margin-right: 0px;
+margin-left: 0px;
+width: 100%;}
+
+input[type=submit] {
+background-color: #17A589;
+color: white;
+padding: 12px 20px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+border-color: #ffffff;
+}
+
+a.leBouton {
+text-align: center;
+width: 5em;
+margin-top: 2em;
+text-decoration: none;
+padding: 10px 30px;
+background-color: #17a589; 
+color: white;
+border: 1px solid gray;
+border-style:inset;
+}
+a.leBouton2
+{
+border-radius: 12px;
+border: 2px solid #46a28d;
+}
+a.leBouton:hover {
+background-color: #17a589;
+color:white;
+}
+
+a.boutonRetour {
+text-align: center;
+width: 5em;
+margin-top: 2em;
+text-decoration: none;
+padding: 10px 30px;
+background-color: #17a589; 
+color: white;
+border: 1px solid gray;
+border-style: inset;
+border-radius: 4px;
+border: 2px solid black;
+}
+    
+a.boutonRetour:hover {
+background-color: #17a589;
+color:white;
+border-color: #ffffff;
+}
+
+.emplacement{
+    margin-top: 3em;
+}
+
+table {
+    margin: 18px 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    text-align: left;
+    padding: 6px;
+}
+table,
+th,
+td {
+    border: 1px solid #000;
+}
+
+
+.boutonChx{
+    text-align: center;
+    width: 5em;
+    margin-top: 2em;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #17a589; 
+    color: white;
+    border: 1px solid gray;
+    border-style: inset;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.boutonChx:hover {
+    background-color: #17a589;
+    color:white;
+    border-color: #ffffff;
+    }

@@ -1,0 +1,25 @@
+body{
+    height: 25%;
+    text-align: center;
+    margin-top: 20%;
+ }
+
+ .boutonChoix {
+ text-decoration: none;
+ padding: 10px 30px;
+ background-color: #181b3c; 
+ color: white;
+ border: 1px solid gray;
+ border-style:inset;
+ border-radius: 12px;
+ border: 2px solid #46a28d;
+ }
+
+ .boutonChoix:hover {
+ background-color: #17a589;
+ color:white;
+ }
+ 
+ .emplacement{
+     margin-bottom: 5em;
+ }
