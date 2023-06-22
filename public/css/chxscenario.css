@@ -27,3 +27,9 @@ color:white;
     padding: 1.5em;
     margin-bottom: 1.1em;
     }
+
+    .taille {
+        max-width: 80em;
+        margin: 0 auto;
+    }
+    

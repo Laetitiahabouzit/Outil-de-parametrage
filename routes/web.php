@@ -61,4 +61,5 @@ Route::get('/graph/{idtest}', 'GraphController@show')->name('graph');
 
 
 //Route::get('/graph/{idtest}', [GraphController::class, 'show'])->name('graph');
-Route::get('/api/graph-data/{idtest}', [GraphController::class, 'getGraphData'])->name('api.graph.data');
+//Route::get('/api/graph-data/{idtest}', [GraphController::class, 'getGraphData'])->name('api.graph.data');
+Route::get('/api/{idtest}', [GraphController::class, 'getGraphData'])->name('api');

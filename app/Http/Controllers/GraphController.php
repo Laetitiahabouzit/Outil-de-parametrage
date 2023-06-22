@@ -10,7 +10,7 @@ class GraphController extends Controller
 {
     public function show($idtest)
     {
-        //Récupération des données à partir du modèle Test
+        // Récupération des données à partir du modèle Test
         $testData = Test::find($idtest);
 
         // Retourne la vue 'graph.blade.php' en passant les données nécessaires
@@ -19,14 +19,15 @@ class GraphController extends Controller
 
     public function getGraphData($idtest)
     {
-
-        $testData = Test::find($idtest);
-
         $query = DB::table('detail_log')
             ->select('*')
             ->where('idtest', $idtest)
             ->get();
-
-        return response()->json($testData);
+    
+        // Utilisez toArray() pour convertir la collection en tableau
+        $data = $query->toArray();
+    
+        return response()->json($data);
     }
+    
 }
